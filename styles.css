@@ -3,33 +3,46 @@ body {
     font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0; /* Background color matching the overall theme */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #5c0c1c; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-nav ul {
+.logo-container {
+    flex: 0 0 auto; /* Do not grow or shrink */
+}
+
+.logo-container img {
+    max-height: 120px; /* Adjust the height as needed */
+}
+
+.nav-links {
+    display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.nav-links li {
+    margin-right: 150px;
 }
 
-nav ul li a {
+.nav-links li:last-child {
+    margin-right: 150px;
+}
+
+.nav-links a {
     text-decoration: none;
     color: #fff;
-    transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #ffd700; /* Change color on hover */
+.nav-links a:hover {
+    color: #ffd700;
 }
 
 main {
@@ -37,8 +50,13 @@ main {
     padding-bottom: 100px;
 }
 
-h2, h3, p {
-    text-align: center;  
+h2, h3 {
+    text-align: center; 
+    color: #5c0c1c; /* Text color for headings and paragraphs */ 
+}
+
+p {
+    text-align: center; 
 }
 
 .container {
@@ -51,7 +69,7 @@ h2, h3, p {
 
 .services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(3, 1fr); /* Always display as a 3x2 grid */
     grid-gap: 20px;
 }
 
@@ -84,9 +102,9 @@ h2, h3, p {
 }
 
 footer {
-    background-color: #333;
+    background-color: #5c0c1c; /* Background color for footer */
     color: #fff;
-    padding: 2px;
+    padding: 0px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -123,6 +141,7 @@ footer {
     display: block;
     font-weight: bold;
     margin-bottom: 5px; /* Add spacing between label and input */
+    
 }
 
 .form-group input[type="text"],
@@ -146,7 +165,7 @@ footer {
 }
 
 button[type="submit"] {
-    background-color: #333;
+    background-color: #5c0c1c;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -157,5 +176,11 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #555;
+    background-color: #57333a;
+}
+
+.sba-certification {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 200px; /* Limit the maximum width */
 }
