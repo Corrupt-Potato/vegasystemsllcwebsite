@@ -190,6 +190,7 @@ button[type="submit"]:hover {
 .row::after {
   content: "";
   clear: both;
+  width: 100%;
   display: table;
 }
 
