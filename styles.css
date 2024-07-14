@@ -19,7 +19,7 @@ header {
 }
 
 .logo-container img {
-    max-height: 120px; /* Adjust the height as needed */
+    max-height: 150px; /* Adjust the height as needed */
 }
 
 .nav-links {
@@ -204,11 +204,11 @@ button[type="submit"]:hover {
 .sba-certification {
     display: block;
     margin: 0 auto; /* Center the image */
-    max-width: 200px; /* Limit the maximum width */
+    max-width: 300px; /* Limit the maximum width */
 }
 
 .swam-certification {
     display: block;
     margin: 0 auto; /* Center the image */
-    max-width: 200px; /* Limit the maximum width */
+    max-width: 300px; /* Limit the maximum width */
 }
