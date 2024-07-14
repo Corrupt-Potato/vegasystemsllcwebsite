@@ -184,3 +184,9 @@ button[type="submit"]:hover {
     margin: 0 auto; /* Center the image */
     max-width: 200px; /* Limit the maximum width */
 }
+
+.swam-certification {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 200px; /* Limit the maximum width */
+}
