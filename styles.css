@@ -19,7 +19,8 @@ header {
 }
 
 .logo-container img {
-    max-height: 150px; /* Adjust the height as needed */
+    max-height: 200px; /* Adjust the height as needed */
+    align-items: center;
 }
 
 .nav-links {
