@@ -3,12 +3,12 @@ body {
     font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Background color matching the overall theme */
+    background-color: #fefdfd; /* Background color matching the overall theme */
 }
 
 header {
-    background-color: #5c0c1c; /* Background color for the header */
-    color: #fff; /* Text color for the header */
+    background-color: #ffffff; /* Background color for the header */
+    color: #2c3587; /* Text color for the header */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: #2c3587;
 }
 
 .nav-links a:hover {
@@ -52,7 +52,7 @@ main {
 
 h2, h3 {
     text-align: center; 
-    color: #5c0c1c; /* Text color for headings and paragraphs */ 
+    color: #2c3587; /* Text color for headings and paragraphs */ 
 }
 
 p {
@@ -102,8 +102,8 @@ p {
 }
 
 footer {
-    background-color: #5c0c1c; /* Background color for footer */
-    color: #fff;
+    background-color: #ffffff; /* Background color for footer */
+    color: #2c3587;
     padding: 0px;
     text-align: center;
     position: fixed;
@@ -165,7 +165,7 @@ footer {
 }
 
 button[type="submit"] {
-    background-color: #5c0c1c;
+    background-color: #2c3587;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -192,7 +192,21 @@ button[type="submit"]:hover {
   padding: 5px;
 }
 
+.emailus_column {
+    width: 30%;
+}
 
+.getintouch_column {
+    width: 60%;
+    float: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 /* Clear floats after image containers */
 .row::after {
   content: "";
